@@ -2,6 +2,11 @@
 
 Our "style guide" for FileMaker Solutions
 
+Work in Progress. Links and example files to be added
+
+###Nameing Conventions
+Don't use tons of goofy characters, and no spaces in field names. Keep it simple. use a "z_" prefix to push non data fields to the bottom of the list.
+
 ###IDs
 use UUIDs. Either Get(UUID) or UUIDDecimal CF
 
@@ -9,7 +14,7 @@ use UUIDs. Either Get(UUID) or UUIDDecimal CF
 BaseElements Plugin - too useful not to use on everything but FileMaker Go
 
 ###ExecuteSQL
-You must use Custom Functions to save you from Field Name Changes
+You must use Custom Functions to save you from field name changes
 
 ###Passing Multiple Parameters
 Use JSON. There are now two JSON custom functions libraries, and a Script based modular FileMaker module to parse JSON. The one backed by BaseElements is the fastest and prefered, unless on FileMaker Go.
@@ -21,6 +26,11 @@ Dont just turn it on.  Library and API scripts, ie scripts that are called by ot
 
 Buttons and other top level script turn on Error Capturing and handle errors appropriately.
 
+###Logging Errors
+Do it :-)
+
+###Transctional Scripting
+Use database transactions to ensure ensure that your scripts are handling your data safely. Use Commit and Revert to ensure that all edits are made or none of them are.
 
 ###Modular Design
 Use ModularFileMaker.orgs guidelines for exposing features as folders of scripts. Use a README script to describe module. Segregate scripts in to PUBLIC and PRIVATE FOLDERS
