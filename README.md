@@ -8,7 +8,7 @@ Work in Progress. Links and example files to be added
 Don't use tons of goofy characters, and no spaces in field names. Keep it simple. use a "z_" prefix to push non data fields to the bottom of the list.
 
 ###IDs
-use UUIDs. Either Get(UUID) or UUIDDecimal Custom Function. See example file. /examples/UUIDs.fmp12
+use UUIDs. Either Get(UUID) or UUIDDecimal Custom Function. See example file. https://github.com/geistinteractive/fmguidelines/blob/master/examples/UUIDs.fmp12
 
 ###Plugins
 BaseElements Plugin - too useful not to use on everything but FileMaker Go
