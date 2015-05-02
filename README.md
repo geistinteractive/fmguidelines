@@ -11,7 +11,7 @@ Don't use tons of goofy characters, and no spaces in field names. Keep it simple
 use UUIDs. Either Get(UUID) or UUIDDecimal Custom Function. See example file. https://github.com/geistinteractive/fmguidelines/blob/master/examples/UUIDs.fmp12
 
 ###Plugins
-BaseElements Plugin - too useful not to use on everything but FileMaker Go
+[BaseElements Plugin](http://www.goya.com.au/baseelements/plugin) - too useful not to use on everything but FileMaker Go
 
 ###ExecuteSQL
 You must use Custom Functions to save you from field name changes
